@@ -39,7 +39,7 @@ What is the difference between the “x” permission of a file and of a directo
 ```execute for file means excute script while in directory means access it by cd```
 
 10.	Using the useradd command, add accounts for the following users in your system: user1, user2, user3, user4, user5, user6 and user7. Remember to give each user a password.
-
+![Screenshot from 2024-09-28 15-19-09](https://github.com/user-attachments/assets/ac9ebed2-8c3d-4cab-b4e5-ed62d240bb03)
 11.	Using the groupadd command, add the following groups to your system.
 Group                      	GID
 sales                         	10000
@@ -48,8 +48,10 @@ web                         	10002
 ![Screenshot from 2024-09-28 14-47-25](https://github.com/user-attachments/assets/7af9ebe7-7b08-4105-b536-dc97439ef962)
 
 12.	Using the usermod command to add user1 and user2 to the sales auxiliary group, user3 and user4 to the hr auxiliary group. User5 and user6 to web auxiliary group. And add user7 to all auxiliary groups  
+![Screenshot from 2024-09-28 15-21-46](https://github.com/user-attachments/assets/5d1c228a-5e9b-4e3a-90d2-3ec74b16d748)
 
 13.	Login as each user and use id command to verify that they are in the appropriate groups. How else might you verify this information?
+![Screenshot from 2024-09-28 15-24-16](https://github.com/user-attachments/assets/db3bff4a-97ba-4f3a-8600-e56910206d7a)
 
 14.	Create a directory called /depts with a sales, hr, and web directory within the /depts directory.
 ![Screenshot from 2024-09-28 14-49-15](https://github.com/user-attachments/assets/8b20f5c3-1da0-452c-883d-a38126b26a1e)
