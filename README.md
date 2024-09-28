@@ -17,19 +17,19 @@ directory 777
 
 7.	What are the minimum permission needed for :
 a.	Copy a directory  (source and target)
-     rwx
+     ```rwx```
 b.	Copy a file (source and target)
-     rw
+     ```rw```
 c.	Delete  a file
-      w
+      ```w```
 d.	change  to a directory
-      x
+      ```x```
 e.	List a directory content
-      rx
+      ```rx```
 f.	  View a file content
-      r
+      ```r```
 g.	Modify a file content
-      w
+      ```w```
 9.	 Create a file with permission 444. Try to edit in it and to remove it? Note what happened. (notice write protection in LINUX)
 ```has no write permissions read only ```
 ![Screenshot from 2024-09-28 14-35-05](https://github.com/user-attachments/assets/9b484edd-1c92-4d77-b0f3-68273e5f7241)
