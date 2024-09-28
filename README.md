@@ -5,9 +5,10 @@
 ![Screenshot from 2024-09-28 00-52-19](https://github.com/user-attachments/assets/61f977bd-1a3d-4bb4-8d9f-ffaf2675782c)
 
 3.	What is the maximum permission a file can have, by default when it is just created? And what is that of directory.
+```
 file 666
 directory 777
-
+```
 5.	Change your default permission to read and execute for you (owner), full permission for your group member and no permission for all the others, create a file and a directory. Note the permissions.
 ![Screenshot from 2024-09-28 01-01-35](https://github.com/user-attachments/assets/4a361770-a2ac-4bb1-be49-ef3daa5e25ae)
 ![Screenshot from 2024-09-28 01-02-24](https://github.com/user-attachments/assets/4acdfd07-0385-42d4-a36e-d41c93dd383e)
@@ -22,7 +23,6 @@ b.	Copy a file (source and target)
 c.	Delete  a file
       w
 d.	change  to a directory
-
       x
 e.	List a directory content
       rx
@@ -31,12 +31,12 @@ f.	  View a file content
 g.	Modify a file content
       w
 9.	 Create a file with permission 444. Try to edit in it and to remove it? Note what happened. (notice write protection in LINUX)
-has no write permissions read only 
+```has no write permissions read only ```
 ![Screenshot from 2024-09-28 14-35-05](https://github.com/user-attachments/assets/9b484edd-1c92-4d77-b0f3-68273e5f7241)
 ![Screenshot from 2024-09-28 14-37-20](https://github.com/user-attachments/assets/41ff265f-3e7e-42ce-9c66-39dc91ba8913)
 
 What is the difference between the “x” permission of a file and of a directory?
-execute for file means excute script while in directory means access it by cd
+```execute for file means excute script while in directory means access it by cd```
 
 10.	Using the useradd command, add accounts for the following users in your system: user1, user2, user3, user4, user5, user6 and user7. Remember to give each user a password.
 
