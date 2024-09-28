@@ -70,5 +70,10 @@ a.	touch /depts/sales/user2.txt
 b.	touch /depts/hr/ user2.txt
 c.	touch /depts/web/ user2.txt
 Which of these commands succeeded and which failed? What is the group ownership of the files that were created?
+![Screenshot from 2024-09-28 15-40-50](https://github.com/user-attachments/assets/56e9f2e8-4cef-4489-ba43-bee3990063c6)
+```
+sales sucessed
+hr and web failed
+```
 
-19.	Configure sudoers file to allow user3 and user4 to use /bin/mount and /bin/umount commands, while allowing user5 only to use fdisk command.
+20.	Configure sudoers file to allow user3 and user4 to use /bin/mount and /bin/umount commands, while allowing user5 only to use fdisk command.
